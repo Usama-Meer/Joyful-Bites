@@ -1,0 +1,84 @@
+Joyful website 
+this is an e commerce site which is selling deserts and icecreams 
+
+
+pages
+
+home page
+
+
+navbar : logo--shop--local menu--corporate gifts--our story--contact----shpping cart--account---search
+    best seller
+all------combo ---boxes ---suger cookie boxes---cookies by the pound-----seasonal 
+
+
+    welcome to our shop and logo of joyful bites and learn more
+
+    local menu
+
+    party try----sugar cookies--bettercream sandwhich
+    products accordingly 
+
+    pcitures of products
+
+
+    subscribe to our newsletter 
+
+
+    quick links(Home,shop,local menu Corporate gifts, our story, contact us) ----joyful bites logo---contact us (phones number and opening hours)
+
+
+Our shop page
+    introduction banner
+
+    Introduction of that company with branches
+
+    shop pictures with employees working 
+    shop lists
+        timing of each shop
+        shop location
+        contact number
+        rush at the shop indicator
+
+    customer experiences 
+
+
+Corporate 
+
+contact page
+
+
+
+database table structure 
+
+users:
+user_id-----user_name-----user_number----date_of registration-----user_order
+
+user_orders:
+order_id----Total_number_of_items-----quanitity_per_item-----items-----price---delivery_address-----date-----payment-method
+
+
+current_orders:
+order_id-----user_name----price----payment----delivery_location-----delivery_time----delivery_status
+
+stock:
+item_id-----item_name---item_price----item_description----item_category
+
+corporate gifts table
+Gift_id-----gift-type----gift-price----gift_description---
+
+current-gift-orders
+order_id----company-name------receiver----receiver_name------receiver_address----delivery-status
+
+
+
+
+
+
+
+
+
+
+
+
+

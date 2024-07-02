@@ -1,0 +1,373 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>Joyful Bites</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&family=Vujahday+Script&display=swap" rel="stylesheet">
+
+{% endblock head %}
+
+{% block body %}
+
+<main role="main">
+
+  <div id="myCarousel" class="carousel slide pd-6" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <img class="first-slide" src="static/banner1.png" alt="First slide" width="100%" height="500px">
+        <div class="container">
+          <div class="carousel-caption d-none d-lg-block">
+            <h1>Example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center ">
+        <img class="second-slide" src="static/banner2.png" alt="Second slide" width="100%" height="500px">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center">
+        <img class="third-slide" src="static/banner3.png" alt="Third slide" width="100%" height="500px">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>One more for good measure.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing py-2 my-2">
+
+    <h1 id="vujahday-script-regular">Best Sellers</h1> 
+
+    
+
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-xl-4">
+        <div class="card">
+
+          <div class="imgBox">
+            <img src="static/cake.png" alt="mouse corsair" class="mouse">
+          </div>
+        
+          <div class="contentBox">
+            <h3>Mouse Corsair M65</h3>
+            <h2 class="price">61.<small>98</small> €</h2>
+            <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+          </div>
+        
+        </div>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-xl-4">
+        <div class="card">
+
+          <div class="imgBox">
+            <img src="static/croissant.png" alt="mouse corsair" class="mouse">
+          </div>
+        
+          <div class="contentBox">
+            <h3>Mouse Corsair M65</h3>
+            <h2 class="price">61.<small>98</small> €</h2>
+            <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+          </div>
+        
+        </div>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-xl-4">
+        
+        <div class="card">
+
+          <div class="imgBox">
+            <img src="static/waffle.png" alt="mouse corsair" class="mouse">
+          </div>
+        
+          <div class="contentBox">
+            <h3>Mouse Corsair M65</h3>
+            <h2 class="price">61.<small>98</small> €</h2>
+            <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+          </div>  
+        </div>
+      </div>
+      <!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-xl-4">
+        <div class="card">
+
+          <div class="imgBox">
+            <img src="static/mixed-cookie gift.png" alt="mouse corsair" class="mouse">
+          </div>
+        
+          <div class="contentBox">
+            <h3>Mouse Corsair M65</h3>
+            <h2 class="price">61.<small>98</small> €</h2>
+            <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+          </div>
+        
+        </div>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-xl-4">
+        <div class="card">
+
+          <div class="imgBox">
+            <img src="static/cheesecake.png" alt="mouse corsair" class="mouse">
+          </div>
+        
+          <div class="contentBox">
+            <h3>Mouse Corsair M65</h3>
+            <h2 class="price">61.<small>98</small> €</h2>
+            <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+          </div>
+        
+        </div>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-xl-4">
+        <!-- The Code -->
+        <div class="card">
+
+          <div class="imgBox">
+            <img src="static/colorful-tasty-donut.png" alt="mouse corsair" class="mouse">
+          </div>
+        
+          <div class="contentBox">
+            <h3>Mouse Corsair M65</h3>
+            <h2 class="price">61.<small>98</small> €</h2>
+            <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+          </div>
+        
+        </div>
+      </div>
+      <!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+    
+      <div class="col-md-5 d-none d-lg-block">
+        <img class="featurette-image img-fluid mx-auto" src="static/joyfulbites.png" alt="Generic placeholder image">
+      </div>
+
+      <div class="container col-md-7">
+        <h4 class="text-center text-danger" id="vujahday-script-regular">Welcome to</h4>
+        <h1 class="text-danger text-center" id="vujahday-script-regular" style="font-size:50px">Our Shop</h1>
+        <p class="text-center">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <button class= "btn btn-outline-danger mx-auto d-block" onclick="#" >Learn More</button>
+      </div>
+    </div>
+
+    <!--   /END THE FEATURETTES -->
+    <hr class="featurette-divider">
+
+    <!--   /LOCAL MENU -->
+    <div class="container marketing py-2 my-2">
+
+      <h1 id="vujahday-script-regular">Local Menu</h1> 
+  
+      
+  
+  
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-xl-4">
+          <div class="card">
+  
+            <div class="imgBox">
+              <img src="static/cake.png" alt="mouse corsair" class="mouse">
+            </div>
+          
+            <div class="contentBox">
+              <h3>Mouse Corsair M65</h3>
+              <h2 class="price">61.<small>98</small> €</h2>
+              <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+            </div>
+          
+          </div>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-xl-4">
+          <div class="card">
+  
+            <div class="imgBox">
+              <img src="static/croissant.png" alt="mouse corsair" class="mouse">
+            </div>
+          
+            <div class="contentBox">
+              <h3>Mouse Corsair M65</h3>
+              <h2 class="price">61.<small>98</small> €</h2>
+              <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+            </div>
+          
+          </div>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-xl-4">
+                
+          <div class="card">
+  
+            <div class="imgBox">
+              <img src="static/waffle.png" alt="mouse corsair" class="mouse">
+            </div>
+          
+            <div class="contentBox">
+              <h3>Mouse Corsair M65</h3>
+              <h2 class="price">61.<small>98</small> €</h2>
+              <a href="#" class="buy"><span class="material-icons md-dark">shopping_cart</span></a>
+            </div>  
+          </div>
+        </div>
+              <!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    
+
+    <hr class="featurette-divider">
+<!shortcut images container-->
+    <div class="container marketing py-2 my-2" style="box-sizing: border-box;">
+      <div class="grid-container">
+        <div class="item item-1 centered-item">
+          <h3>Corporate Gifts</h3>
+          <h1>Sweet Tokens of Application</h1>
+          <p>From artisanal chocolates to custom desset platters, we've got you covered</p>
+
+          <button class= "btn btn-outline-light d-block" onclick="#" >Shop Now</button>
+          
+          
+
+        
+        </div>
+        <div class="item item-2">
+          <h1>Taste the Art of Baking</h1>
+          
+          <button class= "btn btn-outline-light d-block" onclick="#" >View Menu</button>
+        </div>
+        <div class="item item-3">
+          <h1>Save 20% Today</h1>
+          <button class= "btn btn-outline-light d-block" onclick="#" >Shop Now</button>
+        </div>
+        <div class="item item-4">
+          <h1>Join Our Sweet Community</h1>
+          <button class= "btn btn-outline-light d-block" onclick="#" >Follow Us</button>
+        </div>
+  
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    
+        
+          
+          
+
+        
+        
+    </div>
+
+    <!--  Newsletter div-->
+    <div class="container marketing py-2 my-2">
+      <div class="grid-container">
+        <div class="item-5">
+          
+          <h1>Subscribe to Our Newsletter</h1>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="email">
+            <button class= "btn btn-outline-light d-block" onclick="#" >Subscribe</button>
+          </form>
+          
+        </div>
+      </div>
+
+    <hr class="featurette-divider">
+
+
+    
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+  
+
+  <div class="background">
+    <div class="line line--cantileverFromRight"></div>
+    <div class="line line--shortBar"></div>
+    <div class="line line--cantileverFromLeft"></div>
+    <div class="line line--longBar"></div>
+    <div class="line line--horizon"></div>
+  </div>
+
+  <!stock drawer-->
+
+
+  
+
+
+{% endblock body %}
